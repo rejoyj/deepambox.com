@@ -895,6 +895,71 @@ body {
   color: var(--black);
 }
 
+
+
+
+.partners-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.partners-section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.partner-card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.partner-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.partner-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.partner-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.partner-card:hover {
+  transform: translateY(-10px);
+}
+
+#loadMoreBtn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#loadMoreBtn:hover {
+  background-color: #0056b3;
+}
+
 /* //........ Footer ...... // */
 
 footer {
