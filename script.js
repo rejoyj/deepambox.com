@@ -35,3 +35,5 @@ $(document).ready(function () {
     
     partnersContainer.appendChild(newPartnerCard);
 });
+
+
